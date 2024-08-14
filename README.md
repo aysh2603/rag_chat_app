@@ -24,25 +24,7 @@ https://github.com/user-attachments/assets/c4e12e53-6fd0-45d2-9cf8-bfec774b5910
   cd rag_chat_app
 ```
 
-2. Frontend Setup
-
-- Navigate to the Frontend Directory
-```bash
-  cd rag_frontend
-```
-
-- Installing the Python dependencies
-```bash
-  pip install -r requirements.txt
-```
-
-- Start the React server
-```bash
-  npm install
-  npm start
-```
-
-3. Backend Setup
+2. Backend Setup
 
 - Navigate to the Backend Directory
 ```bash
@@ -50,9 +32,27 @@ https://github.com/user-attachments/assets/c4e12e53-6fd0-45d2-9cf8-bfec774b5910
   cd rag_chatbot
 ```
 
+- Installing the Python dependencies
+```bash
+  pip install -r requirements.txt
+```
+
 - Start the FAST API Server
 ```bash
   uvicorn main:app --reload
+```
+
+3. Frontend Setup
+
+- Navigate to the Frontend Directory
+```bash
+  cd rag_frontend
+```
+
+- Start the React server
+```bash
+  npm install
+  npm start
 ```
 
 
